@@ -12,5 +12,4 @@ let pSchema=Mongoose.Schema(
     }
 )
 
-let Pmodel=Mongoose.model("product",pSchema)
-module.exports=Pmodel
+module.exports=Mongoose.model("product",pSchema)
